@@ -131,6 +131,10 @@ class SubjectControllerTest {
                 .andExpect(MockMvcResultMatchers.status().isOk());
     }
 
+    /**
+     *
+     * @throws Exception
+     */
     @Test
     void testDeleteSubject3() throws Exception {
         when(this.subjectService.getAllSubjects()).thenReturn(new ArrayList<>());

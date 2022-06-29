@@ -5,7 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 class SubjectTest {
-
+    /**
+     * testConstructor
+     */
     @Test
     void testConstructor() {
         Subject actualSubject = new Subject();
@@ -15,6 +17,9 @@ class SubjectTest {
         assertEquals("Name", actualSubject.getName());
     }
 
+    /**
+     * test Constructor
+     */
     @Test
     void testConstructor2() {
         Subject actualSubject = new Subject("42", "Name");
